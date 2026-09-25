@@ -1,0 +1,14 @@
+{
+  "name": "@gum-lang/parser",
+  "version": "0.1.0",
+  "exports": "./src/index.ts",
+  "publish": {
+    "include": [
+      "src/**/*.ts",
+      "pkg/**/*.js",
+      "pkg/**/*.wasm",
+      "pkg/**/*.d.ts",
+      "jsr.json"
+    ]
+  }
+}
