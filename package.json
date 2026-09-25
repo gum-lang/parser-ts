@@ -1,0 +1,24 @@
+{
+  "name": "@gum-lang/parser",
+  "version": "0.1.0",
+  "description": "TypeScript parser for the Gum markup language, powered by WebAssembly",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["gum", "parser", "markup", "wasm"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "files": [
+    "dist",
+    "pkg"
+  ]
+}
